@@ -1,0 +1,35 @@
+body{
+    background-image: url("/img/login-image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card{
+    width: 60%;
+    height: 100%;
+    position: absolute;
+    top: 40px;
+    left: 21%;
+    border: none;
+}
+.card-header {
+	border-bottom: none;
+	text-align: center;
+	background-color: #d0b9a536;
+}
+.recuer{
+	text-align: right;
+}
+.titulo{
+	text-align: center;
+}
+.cancelar{
+    width: 140px;
+}
+.a-canc{
+    color: #FFF;
+}
+.a-canc:hover{
+    color : #FFF;
+    text-decoration: none;
+}

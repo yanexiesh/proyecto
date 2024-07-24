@@ -1,0 +1,268 @@
+p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1em;
+  font-weight: 300;
+  line-height: 1.7em;
+  color: #999;
+}
+
+a,
+a:hover,
+a:focus {
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.navbar {
+  font-size: 20px;
+  padding: 15px 20px;
+  background: #00B0FF;
+  border: none;
+  border-radius: 0;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  color: #FFFFFF;
+}
+
+.navbar-btn {
+  box-shadow: none;
+  outline: none !important;
+  border: none;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  border-bottom: 1px dashed #ddd;
+  margin: 40px 0;
+}
+
+.form-inline {
+  padding-left: 100px !important;
+}
+
+.navbar-text {
+  padding-right: 100px !important;
+}
+
+.btn {
+  color: #FFFFFF !important;
+}
+
+
+/* ---------------------------------------------------
+SIDEBAR STYLE
+----------------------------------------------------- */
+
+.wrapper {
+  display: flex;
+  width: 100%;
+  align-items: stretch;
+
+}
+
+#sidebar {
+  min-width: 250px;
+  max-width: 250px;
+  color: gray;
+  transition: all 0.3s;
+  font-family: Poppins;
+  position: relative;
+  height: calc(98vh - 78px);
+}
+
+#sidebar.active {
+  margin-left: -250px;
+}
+
+#sidebar .sidebar-header {
+  padding: 20px;
+  background: #6d7fcc;
+}
+
+#sidebar ul.components {
+  border-bottom: 1px solid #47748b;
+}
+
+#sidebar ul p {
+  color: #fff;
+  padding: 15px;
+  background-color: gray
+}
+
+#sidebar ul li a {
+  padding: 15px;
+  font-size: 1.1em;
+  display: block;
+}
+
+#sidebar ul li a:hover {
+  color: #00B0FF;
+  background: #e8e8e88c;
+}
+
+#sidebar ul li.active>a,
+a[aria-expanded="true"] {
+  color: #fff;
+  background: #00B0FF;
+}
+
+.a[data-toggle="collapse"] {
+  position: relative;
+}
+
+.dropdown-toggle::after {
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  background-color: blue;
+}
+
+ul ul a {
+  font-size: 0.9em !important;
+  padding-left: 30px !important;
+}
+
+ul.CTAs {
+  padding: 20px;
+}
+
+ul.CTAs a {
+  text-align: center;
+  font-size: 0.9em !important;
+  display: block;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+
+
+
+.input-search {
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 300px;
+  border: none;
+  border-bottom: 1px solid #FFFFFF;
+  background-color: #00B0FF;
+  color: #FFFFFF;
+}
+
+
+/* quita el focus del inputs search */
+
+input:focus {
+  outline: none;
+  border-color: none;
+}
+
+.center {
+  padding-left: 10px;
+}
+
+.active-pag {
+  color: #00B0FF;
+  background: #e8e8e88c;
+}
+
+.dropdown-menu {
+  right: 0px !important;
+  left: auto !important;
+}
+.row {
+	margin-right: 0px !important;
+	margin-left: 0px !important;
+}
+
+.container-fluid{
+  padding: 30px !important;
+  background-color: #e8e8e88c;
+  background-image: url("/img/login.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.wrap{
+  width: 90%;
+  padding: 40px;
+  margin: auto;
+  background: #ffffff6e;
+  box-shadow: 0px 0px 3px grey;
+}
+
+.input-group input[type="text"],
+.input-group input[type="email"]{
+    font-family: "Roboto";
+    font-size: 16px;
+    color: #0f0808cf;
+    width: 100%;
+    outline: none;
+    padding: 15px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #BBDEFB;
+}
+
+.btn-submit{
+  color: #ffffff;
+  border-radius: 35px;
+  background-color: #00B0FF;
+  font-size: 18px;
+  font-family: Poppins;
+}
+.btn-can{
+  background-color: gray;
+  font-size: 18px;
+  font-family: Poppins;
+  border-radius: 35px;
+  color: #ffffff;
+}
+.select{
+  font-size: 16px;
+  outline: none;
+  margin-top: 32px;
+}
+
+.p-span{
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.85em;
+  font-weight: 300;
+  line-height: 1.7em;
+  color: #0f0808ad;
+}
+.formulario{
+  width: 100%;
+  margin: auto;
+}
+.input-group{
+  position: relative;
+  margin-bottom: 32px;
+}
+input[type="submit"]{
+  background: blue;
+  border-radius: 1px;
+  border: borde solid white;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: font-family;
+  font-size: 16px;
+  padding: 15px;
+  width: 100%;
+  -webkit-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.form-control:focus{
+  outline: none !important;
+  border-color: none !important;
+  box-shadow: 0cm;
+}
+button{
+  font-family: Poppins;
+  font-size: 18px;
+}
